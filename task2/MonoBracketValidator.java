@@ -14,6 +14,7 @@ public class MonoBracketValidator {
                 openBracketsCount--;
             }
         }
+
         return openBracketsCount == 0;
     }
 }
